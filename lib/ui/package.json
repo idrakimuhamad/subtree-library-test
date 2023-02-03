@@ -9,7 +9,8 @@
     "react-native": "^0.61.5 || ^0.62.3 || ^0.63.2 || ^0.64.2 || ^0.65.0 || ^0.66.0 || ^0.67.0 || ^0.68.0 || ^0.69.0 || ^0.70.0",
     "react-native-svg": "^12.1.1 || ^12.3.0"
   },
-  "main": "src/index.ts",
+  "main": "src/index",
+  "source": "src/index",
   "scripts": {
     "build": "bob build",
     "prepare": "bob build"
