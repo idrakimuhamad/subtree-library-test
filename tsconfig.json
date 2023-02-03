@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "test-subtree-lib": ["./src/index"]
+      "test-subtree-lib": ["./src/index"],
+      "subtreeshared": ["./lib/ui/src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -1,5 +1,6 @@
 const path = require('path');
 const pak = require('../package.json');
+const uiLib = require('../lib/ui/package.json');
 
 module.exports = function (api) {
   api.cache(true);
@@ -14,6 +15,7 @@ module.exports = function (api) {
           alias: {
             // For development, we want to alias the library to the source
             [pak.name]: path.join(__dirname, '..', pak.source),
+            [uiLib.name]: path.join(__dirname, '../lib/ui', uiLib.source),
           },
         },
       ],
